@@ -1,0 +1,42 @@
+# Godot 4+ specific ignores
+.godot/
+
+# Godot-specific ignores
+*.translation
+
+# Imported textures and samples
+.import/
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+
+# MCP output directory (screenshots, state exports)
+# These are generated at runtime and should not be committed
+# Location: user://mcp_output/ (maps to OS-specific user data directory)
+
+# System/Editor
+.DS_Store
+*~
+*.swp
+*.swo
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+export_presets.cfg
+*.pck
+*.zip
+
+# Node modules (if using godot-mcp locally)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
